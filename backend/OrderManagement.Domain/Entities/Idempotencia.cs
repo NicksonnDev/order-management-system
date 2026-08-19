@@ -10,6 +10,6 @@ namespace OrderManagement.Domain.Entities
 
         public DateTime DataCriacao { get; set; }
 
-        public long Resposta { get; set; }
+        public string Resposta { get; set; } = string.Empty;
     }
 }

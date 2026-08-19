@@ -6,7 +6,11 @@ namespace OrderManagement.Domain.Entities
 
         public long PedidoId { get; set; }
 
+        public Pedido Pedido { get; set; } = null!;
+
         public long ProdutoId { get; set; }
+
+        public Produto Produto { get; set; } = null!;
 
         public string NomeProduto { get; set; } = string.Empty;
 
